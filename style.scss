@@ -1,0 +1,34 @@
+.container {
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .form-weather {
+    margin: 10px;
+  }
+
+  .city {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+  }
+
+  table {
+    margin: 10px;
+
+    tbody {
+      display: none;
+
+      th {
+        display: flex;
+        justify-content: start;
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
